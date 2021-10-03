@@ -80,6 +80,9 @@ p {
 .description {
   margin-top: 60px;
 }
+.navigation {
+  background-color: var(--secondary-color);
+}
 nav {
   padding: 15px 0px;
 }
