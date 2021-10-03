@@ -80,6 +80,28 @@ p {
 .description {
   margin-top: 60px;
 }
+nav {
+  padding: 15px 0px;
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 50px;
+  margin-left: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: rgba(39, 33, 66, 0.7);
+}
+nav a:hover,
+nav li.active a {
+  color: var(--branding-color);
+}
 
 @media (max-width: 900px) {
   .introduction {
@@ -97,6 +119,9 @@ p {
   .about {
     text-align: center;
     padding: 0px;
+  }
+  nav {
+    padding: 10px 0px;
   }
 }
 .about {
