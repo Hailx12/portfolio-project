@@ -141,12 +141,12 @@ p {
   color: var(--branding-color);
 }
 
-.projects {
+.page-subject {
   padding: 160px 20px 100px 20px;
   margin-left: 144px;
   margin-right: 471px;
 }
-.projects h1 {
+.page-subject h1 {
   font-size: 64px;
   line-height: 85px;
 }
