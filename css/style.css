@@ -94,6 +94,16 @@ p {
   .description {
     text-align: center;
   }
+  .about {
+    text-align: center;
+    padding: 0px;
+  }
+}
+.about {
+  padding: 160px 20px;
+}
+.about-content {
+  margin: 30px;
 }
 
 .about h1 {
@@ -107,4 +117,21 @@ p {
   line-height: 27px;
   font-weight: bold;
   color: var(--second-font-color);
+}
+.about img {
+  border-radius: 20px;
+}
+.work-inquiry {
+  background-color: var(--secondary-color);
+  margin: 0px 120px;
+  border-radius: 20px;
+  padding: 50px 120px;
+}
+
+.work-inquiry a {
+  text-align: center;
+}
+
+.mail-contact {
+  text-align: center;
 }
