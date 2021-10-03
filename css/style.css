@@ -123,11 +123,44 @@ p {
 }
 .work-inquiry {
   background-color: var(--secondary-color);
-  margin: 0px 120px;
+  margin: 0px 140px;
   border-radius: 20px;
   padding: 50px 120px;
 }
 
 .mail-contact {
   text-align: center;
+}
+.mail-contact a {
+  text-decoration: none;
+  color: black;
+  font-family: var(--default-font-family);
+  font-size: 24px;
+}
+.icons {
+  color: var(--branding-color);
+}
+
+.projects {
+  padding: 160px 20px 100px 20px;
+  margin-left: 144px;
+  margin-right: 471px;
+}
+.projects h1 {
+  font-size: 64px;
+  line-height: 85px;
+}
+.project-list {
+  margin-left: 132px;
+  margin-right: 132px;
+  margin-bottom: 120px;
+  text-align: center;
+}
+.project-list h2 {
+  font-family: var(--default-font-family);
+  font-size: 24px;
+  line-height: 36px;
+}
+.project-list img {
+  border-radius: 20px;
 }
