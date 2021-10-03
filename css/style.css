@@ -1,7 +1,8 @@
 :root {
-  --branding-color: #6c63ff;
+  --branding-color: #227576;
   --secondary-color: #f9f7fe;
-  --second-font-color: #272142;
+  --second-font-color: #344d5c;
+  --hover-color: #c1a336;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
 }
@@ -26,7 +27,7 @@ p {
 .introduction {
   background-color: var(--secondary-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 100px 20px;
 }
 
 .introduction h1 {
@@ -84,59 +85,9 @@ p {
 .description {
   margin-top: 60px;
 }
-.navigation {
-  background-color: var(--secondary-color);
-}
-nav {
-  padding: 15px 0px;
-}
-nav ul {
-  padding: 0;
-  margin: 0;
-}
-nav li {
-  display: inline;
-  list-style: none;
-  line-height: 50px;
-  margin-left: 15px;
-}
 
-nav a {
-  text-decoration: none;
-  color: rgba(39, 33, 66, 0.7);
-}
-nav a:hover,
-nav li.active a {
-  color: var(--branding-color);
-}
-
-footer {
-  margin: 60px 0px;
-}
-
-@media (max-width: 900px) {
-  .introduction {
-    padding: 80px;
-  }
-  .introduction h1 {
-    font-size: 45px;
-  }
-  .core h2 {
-    font-size: 40px;
-  }
-  .description {
-    text-align: center;
-  }
-  .about {
-    text-align: center;
-    padding: 0px;
-  }
-  nav {
-    padding: 10px 0px;
-  }
-}
 .about {
-  padding: 160px 20px;
+  padding: 70px 20px;
 }
 .about-content {
   margin: 30px;
@@ -154,9 +105,80 @@ footer {
   font-weight: bold;
   color: var(--second-font-color);
 }
+
 .about img {
   border-radius: 20px;
 }
+
+.content-container {
+  padding: 60px 20px;
+}
+
+.content h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+
+.content h2 {
+  font-size: 18px;
+  font-family: var(--default-font-family);
+}
+
+.content h3 {
+  font-size: 24px;
+  line-height: 1.5;
+
+  font-family: var(--default-font-family);
+}
+
+.content p {
+  font-size: 14px;
+}
+
+.content {
+  margin: 30px;
+}
+
+.content img {
+  border-radius: 20px;
+}
+
+.navigation {
+  background-color: var(--secondary-color);
+}
+
+nav {
+  padding: 15px 0px;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 50px;
+  margin-left: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: rgba(39, 33, 66, 0.7);
+}
+nav a:hover {
+  color: var(--hover-color);
+}
+
+nav li.active a {
+  color: var(--branding-color);
+}
+
+footer {
+  margin: 60px 0px;
+}
+
 .work-inquiry {
   background-color: var(--secondary-color);
   margin: 0px 140px;
@@ -194,26 +216,38 @@ footer {
   background-color: var(--branding-color);
 }
 
-.page-subject {
-  padding: 160px 20px 100px 20px;
-  margin-left: 144px;
-  margin-right: 471px;
+.link {
+  color: #cf8383;
 }
-.page-subject h1 {
-  font-size: 64px;
-  line-height: 85px;
-}
-.project-list {
-  margin-left: 132px;
-  margin-right: 132px;
-  margin-bottom: 120px;
-  text-align: center;
-}
-.project-list h2 {
-  font-family: var(--default-font-family);
-  font-size: 24px;
-  line-height: 36px;
-}
-.project-list img {
-  border-radius: 20px;
+
+@media (max-width: 900px) {
+  .introduction {
+    padding: 80px;
+  }
+  .introduction h1 {
+    font-size: 45px;
+  }
+  .core h2 {
+    font-size: 40px;
+  }
+  .description {
+    text-align: center;
+  }
+  .about {
+    text-align: center;
+    padding: 0px;
+  }
+  .about h1,
+  .content h1 {
+    font-size: 45px;
+    line-height: 1.2;
+  }
+  .content {
+    text-align: center;
+    padding: 0px;
+  }
+  nav {
+    padding: 10px 0px;
+    font-size: 14px;
+  }
 }
