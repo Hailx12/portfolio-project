@@ -143,8 +143,7 @@ p {
   border-radius: 20px;
 }
 
-.navigation {
-  background-color: var(--secondary-color);
+.bg-light {
 }
 
 nav {
